@@ -1,0 +1,78 @@
+[begin] (Parrot OS)
+[exec] (Terminal) {mate-terminal} 
+[exec] (Navegador){firefox}
+[exec] (Bluetooth) {blueman-manager}
+[exec] (Files)  {caja}
+
+
+[separator]
+
+[submenu] (Ingenieria Universidad)
+[exec] (Office) {libreoffice}
+[exec] (Moodle Universidad) {firefox https://moodle.uttcampus.edu.mx/my/}
+[exec] (Microsoft Teams) {teams}
+########## Menus
+[submenu] (Tareas 20-25-sep)
+########################################
+[submenu] (Algebra Lineal) 
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=978}
+[exec] (Converciones de sistemas y numeracion 26-sep-00:00 hrs) {firefox https://moodle.uttcampus.edu.mx/mod/assign/view.php?id=4838}
+[exec] (Operaciones con numeros complejos 24-sep-14:00 hrs) {https://moodle.uttcampus.edu.mx/mod/assign/view.php?id=4837}
+[end]
+########################################
+[separator]
+
+[submenu] (Desarrollo de Habilidades)
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=917}
+[exec] (Sistema binario y hexadecimal con parte fraccionaria 24-sep-23:53 hrs) {firefox https://moodle.uttcampus.edu.mx/mod/quiz/view.php?id=4938}
+[exec] (Procedimiento) {firefox https://moodle.uttcampus.edu.mx/mod/assign/view.php?id=4939}
+[end]
+#########################################
+[separator]
+[submenu] (Expresion Oral y Escrita)
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=951}
+[end]
+##########################################
+[separator]
+[submenu] (Formacion Sociocultural)
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=922}
+[end]
+###########################################
+[separator]
+[submenu] (Fundamentos de Redes)
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=980}
+[end]
+
+[separator]
+
+[submenu] (Fundamentos de TI)
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=949}
+[end]
+
+[separator]
+
+[submenu] (Ingles)
+[exec] (SMRT Homework) {firefox https://www.smrtenglish.com/utt/class/39105/assignments/}
+[exec] (Plataforma) {firefox https://moodle.uttcampus.edu.mx/course/view.php?id=982}
+
+[end]
+
+
+[end]
+[end]
+
+[separator]
+
+[submenu] (Edit config CIA)
+[exec] (Edit menu) {codium /home/sharon/.fluxbox/menu}
+[end]
+
+[config] (Config)
+[submenu] (Estilos) {Which Style?}
+            [stylesmenu] (fluxbox Styles) {/usr/share/fluxbox/styles}
+[end]
+[restart] (Reiniciar)
+[exit] (Salir)
+ 
+[end]
+
